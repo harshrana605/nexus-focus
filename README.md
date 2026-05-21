@@ -2,6 +2,10 @@
 
 A modern, immersive productivity app inspired by Forest App — featuring glowing crystal growth, ambient soundscapes, XP progression, streaks, and deep analytics.
 
+## Live Demo
+
+🔗 [Nexus Focus](https://nexus-focus.vercel.app/)
+
 ---
 
 ## 🚀 Quick Start
