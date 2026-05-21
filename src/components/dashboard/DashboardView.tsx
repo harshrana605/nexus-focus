@@ -79,7 +79,7 @@ export function DashboardView() {
     <div className="h-full overflow-y-auto">
       <div className="p-6 pb-10">
         <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }}>
-          <h2 className="font-syne text-2xl font-bold mb-1">Dashboard</h2>
+          <h2 className="font-body text-2xl font-bold mb-1">Dashboard</h2>
           <p className="text-slate-500 text-sm mb-5">Your focus analytics and productivity insights</p>
 
           {/* Stat grid */}
@@ -92,7 +92,7 @@ export function DashboardView() {
                 transition={{ delay: i * 0.06 }}
               >
                 <Card className="p-4">
-                  <div className="font-syne text-2xl font-bold text-slate-100 mb-0.5">{s.val}</div>
+                  <div className="font-body text-2xl font-bold text-slate-100 mb-0.5">{s.val}</div>
                   <div className="text-[11px] text-slate-500 uppercase tracking-wide">{s.label}</div>
                   <div className="text-[11px] text-emerald-400 mt-1">{s.sub}</div>
                 </Card>
